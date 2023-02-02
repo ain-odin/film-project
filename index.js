@@ -7,3 +7,10 @@ const personalMovieDB = {
     'genres': [],
     'privat': false
 };
+
+let movieName = prompt('Один из последних просмотренных фильмов?', '');
+let movieScore = prompt('На сколько оцените его?', '');
+
+personalMovieDB.movies = {
+    movieName: movieScore
+};
